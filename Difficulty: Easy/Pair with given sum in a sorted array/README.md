@@ -147,7 +147,7 @@ if (e1 == e2) {
 ```
 - If `e1 == e2`: Both pointers point to the same value. Use the combination formula to count pairs:
   \[
-  Pairs = \frac{\text{occur1} \times (\text{occur1} - 1)}{2}
+  **Pairs = (occur1 * occur1-1) /2**
   \]
 - If `e1 != e2`: Multiply `occur1` and `occur2` to get all pairs between these values.
 
@@ -160,7 +160,7 @@ result += 1 \times 2 = 2
 **Example 2 (e1 == e2):**  
 For `arr = [1, 1, 1, 1]`, `e1 = e2 = 1`, `occur1 = 4`:  
 \[
-result += \frac{4 \times (4 - 1)}{2} = 6
+result += 4*(4-1)/2= 6
 \]
 
 ---
